@@ -1,0 +1,40 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Asp.NetCoreUsingAngular5</title>
+    <base href="~/" />
+    <link href="~/dist/admin/assets/libs/jquery-minicolors/jquery.minicolors.css" asp-append-version="true" rel="stylesheet" />
+    <link href="~/dist/admin/assets/libs/select2/dist/css/select2.min.css" asp-append-version="true" rel="stylesheet" />
+    <link href="~/dist/admin/assets/libs/quill/dist/quill.snow.css" asp-append-version="true" rel="stylesheet" />
+    <link href="~/dist/admin/assets/libs/flot/css/float-chart.css" asp-append-version="true" rel="stylesheet" />
+    <link href="~/dist/admin/dist/css/style.min.css" asp-append-version="true" rel="stylesheet" />
+
+
+
+    @*<link rel="stylesheet" href="~/dist/vendor.css" asp-append-version="true" />*@
+</head>
+<body>
+    @RenderBody()
+
+
+
+    <script src="~/dist/admin/assets/libs/jquery/dist/jquery.min.js" asp-append-version="true"></script>
+    <!-- Bootstrap tether Core JavaScript -->
+    <script src="~/dist/admin/assets/libs/popper.js/dist/umd/popper.min.js" asp-append-version="true"></script>
+    <script src="~/dist/admin/assets/libs/bootstrap/dist/js/bootstrap.min.js" asp-append-version="true"></script>
+    <script src="~/dist/admin/assets/libs/perfect-scrollbar/dist/perfect-scrollbar.jquery.min.js" asp-append-version="true"></script>
+    <script src="~/dist/admin/assets/extra-libs/sparkline/sparkline.js" asp-append-version="true"></script>
+    <script src="~/dist/admin/assets/libs/quill/dist/quill.min.js" asp-append-version="true"></script>
+    <script src="~/dist/admin/assets/libs/jquery-minicolors/jquery.minicolors.min.js" asp-append-version="true"></script>
+    <script src="~/dist/admin/assets/libs/select2/dist/js/select2.min.js" asp-append-version="true"></script>
+    <!--Wave Effects -->
+    <script src="~/dist/dist/js/waves.js" asp-append-version="true"></script>
+    <!--Menu sidebar -->
+    <script src="~/dist/admin/dist/js/sidebarmenu.js" asp-append-version="true"></script>
+    <!--Custom JavaScript -->
+    <script src="~/dist/admin/dist/js/custom.min.js" asp-append-version="true"></script>
+    @RenderSection("scripts", required: false)
+</body>
+</html>
